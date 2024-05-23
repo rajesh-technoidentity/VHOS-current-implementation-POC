@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "bundle": "ng build --output-hashing none && cp ./dist/test/browser/main.js ./src/assets/main.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
